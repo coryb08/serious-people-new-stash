@@ -1,0 +1,58 @@
+{
+  "name": "seriouspeoplefront4",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.21",
+    "@fortawesome/free-brands-svg-icons": "5.10.1",
+    "@fortawesome/free-regular-svg-icons": "5.10.1",
+    "@fortawesome/free-solid-svg-icons": "5.10.1",
+    "@fortawesome/react-native-fontawesome": "0.1.0",
+    "adm-zip": "0.4.13",
+    "axios": "0.18.0",
+    "b64-to-blob": "1.2.19",
+    "base-64": "0.1.0",
+    "core-js": "2.6.9",
+    "firebase": "5.8.0",
+    "plist": "3.0.1",
+    "query-string": "6.8.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-cross-platform-responsive-dimensions": "0.9.1",
+    "react-native-device-info": "2.3.2",
+    "react-native-fbsdk": "0.8.0",
+    "react-native-image-resizer": "1.0.0",
+    "react-native-keyboard-aware-scroll-view": "0.8.0",
+    "react-native-photo-upload": "1.3.0",
+    "react-native-picker-select": "5.2.2",
+    "react-native-router-flux": "4.0.6",
+    "react-native-svg": "9.0.3",
+    "react-native-svg-uri": "1.2.3",
+    "react-navigation": "3.0.9",
+    "react-redux": "6.0.0",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "2.13.7",
+    "redux-persist": "5.10.0",
+    "redux-thunk": "2.3.0",
+    "xcode": "2.0.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "5.7.1",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
